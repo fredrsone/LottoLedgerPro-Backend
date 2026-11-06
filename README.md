@@ -152,7 +152,7 @@ The initial development environment uses:
 
     git clone YOUR_GITHUB_REPOSITORY_URL
 
-    cd JackpotGeneratorPro-Backend
+    cd LottoLedgerPro-Backend
 
 ### Create a Python virtual environment
 
