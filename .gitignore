@@ -1,0 +1,58 @@
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Build and distribution files
+build/
+dist/
+*.egg-info/
+
+# Generated reports
+reports/generated/
+
+# Local lottery data
+lottery_data/data_sources/*
+!lottery_data/data_sources/.gitkeep
+lottery_data/processed/
+lottery_data/rejected/
+lottery_data/logs/
